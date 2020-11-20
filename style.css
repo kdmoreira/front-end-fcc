@@ -2,7 +2,7 @@ body {
   background-color: #595f96;
   margin: 0px;
   padding: 0px;
-  height: 100%
+  height: 100%;
 }
 
 h2 {
@@ -57,7 +57,7 @@ footer {
   text-align: center;
 }
 
-input[type=text] {
+input[type="text"] {
   padding: 5px 55px;
   text-align: left;
 }
