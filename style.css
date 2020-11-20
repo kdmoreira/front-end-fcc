@@ -51,15 +51,24 @@ img {
 footer {
   background-color: #d8d8d8;
   padding: 25px 25px;
+  padding-bottom: 40px;
   margin: 0px;
   text-align: center;
 }
 
+.footerContainer {
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
 .box {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  position: relative;
 }
 
 .box1 {
@@ -89,7 +98,7 @@ footer {
   margin: 10px;
 }
 
-input[type="text"] {
+input[type=text] {
   padding: 5px 55px;
   text-align: left;
 }
