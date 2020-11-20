@@ -1,5 +1,5 @@
 body {
-  background-color: #595f96;
+  background-color: #acdf7e;
   margin: 0px;
   padding: 0px;
   height: 100%;
@@ -18,9 +18,10 @@ h3 {
   font-family: sans-serif;
   text-align: center;
   color: #ffffff;
-  background-color: #cd4d00;
+  background-color: #5c90ad;
   padding: 5px;
   margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 h6 {
@@ -63,7 +64,7 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-  background-color: #cd4d00;
+  background-color: #50a168;
   color: #ffffff;
   padding: 7px;
   border: none;
@@ -81,7 +82,7 @@ input[type="submit"] {
 }
 
 .box1 {
-  background-color: #94c47d;
+  background-color: #b07dc4;
   width: 100px;
   padding: 10px;
   padding-top: 10px;
@@ -108,14 +109,14 @@ input[type="submit"] {
 }
 
 ::-webkit-input-placeholder {
-  text-align: left;
+  text-align: center;
   font-size: 9px;
   font-weight: bold;
   padding: 0px;
 }
 
 ::-moz-placeholder {
-  text-align: left;
+  text-align: center;
   font-size: 9px;
   font-weight: bold;
   padding: 0px;
