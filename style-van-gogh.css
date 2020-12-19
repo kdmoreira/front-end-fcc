@@ -5,6 +5,8 @@ body {
   background-attachment: fixed;
   background-size: 1500px auto;
   margin: 0px;
+  display: flex;
+  justify-content: center;
 }
 #background {
   background-color: #ffe5b9;
