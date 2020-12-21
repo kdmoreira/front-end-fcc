@@ -1,26 +1,40 @@
 <!DOCTYPE hmtl>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Van Gogh</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style-van-gogh.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet" type="text/css">
-</head>
-<body>
-  <main id="main">
-    <div id="background">
-    <header>
-        <h1 id="title">Van Gogh</h1>
-    <p id="description">The man who left a mark on post-impressionism</p>
-    </header>
-    <div id="img-div">
-        <img id="image" src="https://aventurasnahistoria.uol.com.br/media/_versions/van_gogh_capa_widelg.jpg"></img>
-    <div id="img-caption">Self Portrait, 1889.</div></img>
-    </div>
-  <div id="tribute-info">
-      <ul>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Van Gogh</title>
+    <link rel="stylesheet" href="style-vg.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="style-small-screen.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <header class="header">
+          <h1 id="title">Van Gogh</h1>
+          <div class="subheader"><p id="description">The man who left a mark on post-impressionism</p></div>
+        </header>
+        <section id="img-div">
+          <div id="img-container"><img
+            id="img-vg"
+            src="https://aventurasnahistoria.uol.com.br/media/_versions/van_gogh_capa_widelg.jpg"
+          /><div id="img-caption">Self Portrait, 1889.</div></div>
+        </section>
+        <section id="bio">
+          <ul>
         <li><strong>1853</strong> - Vincent Willem van Gogh is born on March 30th, in the province of North Brabant in the Netherlands.</li></br>
         <li><strong>1860</strong> - Is sent to school for the first time. His mother encourages him to draw.</li></br>
         <li><strong>1869</strong> - Works at the art dealers Goupil & Cie in the Hague. Falls in love with Eugénie Loyer, but is rejected.</li></br>
@@ -32,11 +46,9 @@
         <li><strong>1886</strong> - Living poorly in Antwerp, he keeps painting, incorporating new colors and styles. He's hospitalized and starts studying at the Academy of Fine Arts after getting better, but gets into trouble with instructors over artistic matters and has to repeat a year. He then moves to Paris.</li></br>
       </ul>
       <div id="visit"><p id="visit">Please visit <a href="https://pt.wikipedia.org/wiki/Vincent_van_Gogh" id="tribute-link" target="_blank">Van Gogh's Wikipedia page</a> for more information.</p></div>
-    </div>
-  <footer>
-    </p>Created by Karina Moreira</p>
-  </footer>
-  </div>
-  </main>
-</body>
+        </section>
+        <footer class="footer">Created by Karina Moreira</footer>
+      </div>
+    </main>
+  </body>
 </html>
