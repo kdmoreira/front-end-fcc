@@ -1,94 +1,100 @@
 body {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/68/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    font-family: sans-serif;
-}   
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/68/Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
 
-main, section, footer {
-    margin: 0;
-    padding: 20px;
-    border: 1px solid white;
-    color: #ffffff;
+main,
+section,
+footer {
+  margin: 0;
+  padding: 20px;
+  border: 1px solid white;
+  color: #ffffff;
 }
 
 .header {
-    background:  #eff8ff;
-    color: #2F5764;
-    padding: 1px;
-    margin: 0px;
+  background: #eff8ff;
+  color: #2f5764;
+  padding: 1px;
+  margin: 0px;
 }
 h1 {
-    font-family: Oswald, sans-serif;
-    text-align: center;
-    font-size: 55px;
-    padding-top: 10px;
-    margin: 0;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+  font-size: 55px;
+  padding-top: 10px;
+  margin: 0;
 }
 .subheader {
-    background:  #eff8ff;
-    margin: 0;
-    font-family: Merriweather, sans-serif;
-    font-size: 20px;
-    text-align: center;
+  background: #eff8ff;
+  margin: 0;
+  font-family: Merriweather, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .wrapper {
-    margin: auto;
-    max-width: 70rem;
+  margin: auto;
+  max-width: 70rem;
 }
 
 #img-div {
-    background:  #FFE5B9;
+  background: #ffe5b9;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 
 #img-container {
-    margin: auto;
-    background: white;
-    width: 700px;
+  margin: auto;
+  background: white;
+  width: 700px;
 }
 
 #img-caption {
-    padding: 5px;
-    background-color: white;
-    color:  #20404b;
-    text-align: center;
-    font-size: 20px;
+  padding: 5px;
+  background-color: white;
+  color: #20404b;
+  text-align: center;
+  font-size: 20px;
 }
 
 #bio {
-    background: #FFE5B9;
-    font-size: 25px;
-    color: #20404b;
+  background: #ffe5b9;
+  font-size: 25px;
+  color: #20404b;
+  text-align: justify;
+  padding-right: 40px;
 }
 a {
-    color: #49c5ff;
-    text-decoration: none;
+  color: #49c5ff;
+  text-decoration: none;
 }
 a:hover {
-    color: #dbe9ff;
+  color: #dbe9ff;
 }
 #visit {
-    font-size: 20px;
-    color: white;
-    margin-left: 70px;
-    margin-right: 70px;
-    background-color: #2e6c81;
-    text-align: center;
-    padding: 5px;
-    border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  margin-left: 70px;
+  margin-right: 70px;
+  background-color: #2e6c81;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .footer {
-    background:  #eff8ff;
-    color:  #2F5764;
-    text-align: center;
+  background: #eff8ff;
+  color: #2f5764;
+  text-align: center;
 }
