@@ -1,130 +1,46 @@
+main,
+header,
+section,
+footer {
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
 body {
-  background-color: #acdf7e;
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
+  background: black;
+  font-family: sans-serif;
 }
 
-h2 {
-  font-family: sans-serif;
-  font-size: 20px;
+main {
+  background: #000000;
+  max-width: 75rem;
+  margin: auto;
   text-align: center;
-  font-style: italic;
-  font-weight: bolder;
-  color: #ffffff;
 }
 
-h3 {
-  font-family: sans-serif;
-  text-align: center;
-  color: #ffffff;
-  background-color: #5c90ad;
-  padding: 5px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+header {
+  background: #af2d2d;
 }
 
-h6 {
-  font-family: sans-serif;
-  font-size: 10px;
-  text-align: center;
-  color: black;
-  padding-bottom: 5px;
-  margin: 0px;
+.tribute {
+  background: #214252;
 }
 
-p {
-  text-align: right;
-  color: #ffffff;
-  font-family: sans-serif;
-  font-style: italic;
-  font-size: 13px;
-  font-weight: bold;
-  padding-right: 10px;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px;
+.survey-form {
+  background: #214252;
 }
 
 footer {
-  background-color: #d8d8d8;
-  padding: 15px 15px;
-  padding-bottom: 30px;
-  margin: 0px;
-  text-align: center;
+  border: 1px solid #000000;
+  background: #af2d2d;
 }
 
-input[type="text"] {
-  padding: 5px 55px;
-  text-align: left;
+a {
+  color: #f05454;
+  text-decoration: none;
 }
 
-input[type="submit"] {
-  background-color: #50a168;
-  color: #ffffff;
-  padding: 7px;
-  border: none;
-  text-align: center;
-}
-
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  height: 100%;
-  margin-bottom: 200px;
-}
-
-.box1 {
-  background-color: #b07dc4;
-  width: 100px;
-  padding: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 10px;
-}
-
-.box2 {
-  background-color: #e06666;
-  width: 100px;
-  padding: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 10px;
-}
-
-.box3 {
-  background-color: #6d9eeb;
-  width: 100px;
-  padding: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 10px;
-}
-
-::-webkit-input-placeholder {
-  text-align: center;
-  font-size: 9px;
-  font-weight: bold;
-  padding: 0px;
-}
-
-::-moz-placeholder {
-  text-align: center;
-  font-size: 9px;
-  font-weight: bold;
-  padding: 0px;
-}
-
-.footerContainer {
-  position: fixed;
-  right: 0px;
-  left: 0px;
-  bottom: 0px;
+a:hover {
+  color: #f37a7a;
 }

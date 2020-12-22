@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Birding Survey Form</title>
+    <link rel="stylesheet" href="style-form.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="https://www.flaticon.com/svg/static/icons/svg/3069/3069186.svg" alt="Bird Image"></img>
+            <div class="header-subheader"><h1 id="title">Birding Survey Form</h1>
+            <p id="description">Thank you for taking your time to improve</br> our community!</p></div>
+        </header>
+        <section>
+            <form id="survey-form">
+                <label for="name" id="name-label"><p id="question">Name</p>
+                <input id="name" name="name" type="text" placeholder="Enter your name" size="35" required></label></br>
+                <label for="email" id="email-label"><p id="question">Email</p>
+                <input id="email" name="email" type="email" placeholder="Enter your email" size="30" required></label></br>
+                <label for="age" id="age-label"><p id="question">Age (optional)</p>
+                <input id="age" name="age" type="number" placeholder="Age" min="14" max="120"></label></br>
+                <label for="who" id="dropdown"><p id="question">Who are you?</p>
+                
+                <select id="who" name="who" placeholder="Select option" required>
+                    <option value="">Please select</option>
+                    <option value="researcher">Researcher</option>
+                    <option value="hobbyist">Hobbyist</option>
+                </select></label></br>
+                
+                <p id="question">Where do you live?</p>
+                <label for="region1"><input id="region1" name="region" value="africa" type="radio" required>Africa</label>
+                <label for="region2"><input id="region2" name="region" value="asia" type="radio">Asia</label>
+                <label for="region3"><input id="region3" name="region" value="europe" type="radio">Europe</label>
+                <label for="region4"><input id="region4" name="region" value="north-america" type="radio">North America</label></br>
+                <label for="region5"><input id="region5" name="region" value="oceania" type="radio">Oceania</label>
+                <label for="region6"><input id="region6" name="region" value="south-america" type="radio">South America</label></br>
+
+                <p id="question">How do you describe yourself?</p>
+                <label for="description1"><input id="description1" name="description" value="professional-birder" type="checkbox" required>Professional Birder</label></br>
+                <label for="description2"><input id="description2" name="description" value="bird-watcher" type="checkbox">Bird-watcher</label></br>
+                <label for="description3"><input id="description3" name="description" value="bird-owner" type="checkbox">Bird Owner</label></br>
+
+                <label for="textarea"><p id="question">How can we improve our community?</p></label>
+                <textarea id="textarea" name="textarea" rows="5" columns="30" placeholder="Leave your comment..." required></textarea></br>
+
+                <button id="submit" type="submit">Submit!</button>
+            </form>
+        </section>
+        <footer>
+            <p>Created by Karina Moreira | Icon by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a></p>
+        </footer>
+    </main>
+</body>
+</html>
