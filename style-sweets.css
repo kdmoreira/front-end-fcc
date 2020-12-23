@@ -11,11 +11,11 @@ footer {
 }
 
 body {
-  background: black;
+  background: white;
 }
 
 main {
-  background: #000000;
+  background: white;
   font-family: sans-serif;
   margin: auto;
   max-width: 76rem;
@@ -31,22 +31,23 @@ nav {
   background: #fecd1a;
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
+  padding: 15px;
 }
 
 .nav-link {
   background: #fd3a69;
-  /* border: 1px solid black; */
   display: flex;
   flex-grow: 4;
   margin-right: 5px;
   margin-left: 5px;
-  padding: 3px;
+  padding: 5px;
+  justify-content: center;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-family: Exo;
 }
 
 a:hover {
@@ -74,7 +75,7 @@ header {
 }
 
 #section-video {
-  background: #120078;
+  background: #5137df;
   text-align: center;
   padding-top: 1px;
 }
@@ -143,7 +144,7 @@ input[type="submit"] {
 }
 
 #specials {
-  background: #120078;
+  background: #5137df;
   text-align: center;
   padding-bottom: 40px;
   padding-top: 1px;
