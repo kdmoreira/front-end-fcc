@@ -1,0 +1,211 @@
+main,
+header,
+nav,
+section,
+aside,
+footer {
+  margin: 0;
+  padding: 15px;
+
+  color: #ffffff;
+}
+
+body {
+  background: black;
+}
+
+main {
+  background: #000000;
+  font-family: sans-serif;
+  margin: auto;
+  max-width: 76rem;
+}
+
+p {
+  margin: 0;
+  padding: 5px;
+  font-family: Exo;
+}
+
+nav {
+  background: #fecd1a;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.nav-link {
+  background: #fd3a69;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-grow: 4;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #fecd1a;
+}
+
+h1,
+h2 {
+  font-family: Fredoka One, sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+header {
+  background: #fd3a69;
+  font-size: 25px;
+  display: flex;
+}
+
+#header-img {
+  width: 80px;
+  margin: 10px;
+}
+
+#section-video {
+  background: #120078;
+  text-align: center;
+  padding-top: 1px;
+}
+
+video {
+  padding-bottom: 10px;
+}
+
+#icon {
+  margin-right: 10px;
+}
+
+form {
+  background: #fd3a69;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
+  border: 2px solid black;
+}
+
+input[type="submit"] {
+  background: #fecd1a;
+}
+
+.asides {
+  background: #fd3a69;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#aside-h2 {
+  text-shadow: 2px 2px 5px black;
+}
+
+#lovers:hover {
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+#lovers {
+  background: #d22b1f;
+  background-image: url(./images-videos/valentines-day-1182252_1280.jpg);
+  background-size: 500px;
+  background-position: center;
+  border: 3px solid #fd3a69;
+  display: flex;
+  flex: 1;
+  height: 150px;
+}
+
+#kids:hover {
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+#kids {
+  background: #129a22;
+  border: 3px solid #fd3a69;
+  background-image: url(./images-videos/pexels-sharon-mccutcheon-1191639.jpg);
+  background-size: 500px;
+  background-position: center;
+  display: flex;
+  flex: 1;
+  height: 150px;
+}
+
+#specials {
+  background: #120078;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 1px;
+}
+
+#product-container {
+  color: #fd3a69;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#product {
+  background: white;
+  padding: 20px 20px 15px 20px;
+  font-size: 25px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+#product:hover {
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+#img-product1,
+#img-product2,
+#img-product3 {
+  background: pink;
+  display: flex;
+  width: 180px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+  background-size: 250px;
+  background-position: center;
+}
+
+#img-product1 {
+  background-image: url(images-videos/pexels-marta-dzedyshko-2067396.jpg);
+}
+
+#img-product2 {
+  background-image: url(images-videos/pexels-marta-dzedyshko-3302492.jpg);
+}
+
+#img-product3 {
+  background-image: url(images-videos/pexels-jess-bailey-designs-913136.jpg);
+}
+
+#product-name {
+  font-family: Dosis, sans-serif;
+}
+
+footer {
+  background: #fd3a69;
+}
+
+#credits {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
