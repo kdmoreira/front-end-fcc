@@ -107,6 +107,8 @@ form {
 input {
   font-size: 20px;
   margin-bottom: 10px;
+  font-size: 15px;
+  padding: 10px;
 }
 
 #order {
@@ -115,9 +117,25 @@ input {
   padding: 0;
 }
 
+@media (max-width: 600px) {
+  #order {
+    font-size: 15px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  input {
+    font-size: 20px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+
 input[type="submit"] {
   background: #fecd1a;
-  padding: 5px;
+  padding: 10px;
+  margin: 5px;
 }
 
 .asides {
