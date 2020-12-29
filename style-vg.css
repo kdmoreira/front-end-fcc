@@ -7,11 +7,18 @@ body {
 }
 
 main,
-section,
 footer {
   margin: 0;
   padding: 20px;
   border: 1px solid white;
+  color: #ffffff;
+}
+
+section {
+  margin: 0;
+  padding: 20px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
   color: #ffffff;
 }
 
@@ -21,6 +28,7 @@ footer {
   padding: 1px;
   margin: 0px;
 }
+
 h1 {
   font-family: Oswald, sans-serif;
   text-align: center;
@@ -28,6 +36,7 @@ h1 {
   padding-top: 10px;
   margin: 0;
 }
+
 .subheader {
   background: #eff8ff;
   margin: 0;
@@ -75,13 +84,16 @@ img {
   text-align: justify;
   padding-right: 40px;
 }
+
 a {
   color: #49c5ff;
   text-decoration: none;
 }
+
 a:hover {
   color: #dbe9ff;
 }
+
 #visit {
   font-size: 20px;
   color: white;
